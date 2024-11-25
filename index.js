@@ -19,7 +19,7 @@ var quoteData=[{
 
 
 function generateQuote(){
-  var randomNumber = Math.floor(Math.random() * 4);
+  var randomNumber = Math.floor(Math.random() * 3);
   quote.innerHTML=`<p class="my-3">${quoteData[randomNumber].quoteContext}</p>
   <p>${quoteData[randomNumber].quoteAuthor}</p>`
 }
